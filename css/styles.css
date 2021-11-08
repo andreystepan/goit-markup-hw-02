@@ -1,0 +1,64 @@
+/* Цвет основнго текста #757575 */
+
+/* Вторичный текст текста #212121 */
+
+/* Белый цвет #FFFFFF */
+
+/* Акцент #2196F3 */
+
+/* Цвет текста в футере rgba(255, 255, 255, 0.6) */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+
+body {
+  color: var (--primary-text-color);
+  background-color: var(--primary-white-color);
+}
+.list {
+  list-style: none;
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+.contact .link {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.contact .link:hover,
+.contact .link:focus {
+  color: var(--accent-color);
+}
+
+/* hero */
+
+.hero-title {
+  color: var(--title-text-color);
+}
+
+/* section */
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* quality */
+
+.quality .title {
+  color: var(--title-text-color);
+}
+
+/* button */
+.button {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
