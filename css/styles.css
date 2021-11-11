@@ -30,6 +30,12 @@ body {
   font-size: 26px;
   line-height: 1.2;
 }
+.logo .logo-black {
+  color: var(--title-text-color);
+}
+.logo .logo-white {
+  color: var(--primary-white-color);
+}
 .list {
   list-style: none;
 }
