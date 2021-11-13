@@ -31,10 +31,10 @@ body {
   font-size: 26px;
   line-height: 1.2;
 }
-.logo .logo-black {
+.logo-black {
   color: var(--title-text-color);
 }
-.logo .logo-white {
+.logo-white {
   color: var(--primary-white-color);
 }
 .list {
@@ -47,7 +47,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.site-nav .nav-link.current {
+.nav-link.current {
   color: var(--accent-color);
 }
 .contact-link {
@@ -58,8 +58,8 @@ body {
   letter-spacing: 0.02em;
 }
 
-.site-nav .nav-link:hover,
-.site-nav .nav-link:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--accent-color);
 }
 .contact-link:hover,
@@ -69,7 +69,7 @@ body {
 .secondary-button {
   background-color: var(--second-button-bg-color);
   cursor: pointer;
-  font-family: Roboto;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -82,14 +82,12 @@ body {
 }
 
 .portfolio-title {
-  font-family: Roboto;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 .portfolio-text {
-  font-family: Roboto;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -155,14 +153,14 @@ body {
   font-size: 14px;
   line-height: 1.71;
 }
-.team-name {
+.teamate-name {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
-.team-text {
+.teamate-text {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -177,6 +175,5 @@ body {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
-  text-align: center;
   letter-spacing: 0.06em;
 }
