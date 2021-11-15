@@ -99,6 +99,9 @@ body {
 .footer {
   background-color: var(--second-bg-color);
 }
+.address {
+  font-style: normal;
+}
 .map-link {
   color: var(--primary-white-color);
   text-decoration: none;
