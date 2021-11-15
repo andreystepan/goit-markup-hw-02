@@ -19,13 +19,14 @@
 }
 
 body {
-  color: var (--primary-text-color);
+  color: var(--primary-text-color);
   background-color: var(--primary-white-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
 .logo {
   color: var(--accent-color);
+  text-decoration: none;
   font-family: Raleway, sans-serif;
   font-weight: bold;
   font-size: 26px;
@@ -40,8 +41,9 @@ body {
 .list {
   list-style: none;
 }
-.site-nav .nav-link {
+.nav-link {
   color: var(--title-text-color);
+  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -52,6 +54,7 @@ body {
 }
 .contact-link {
   color: var(--primary-text-color);
+  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -82,7 +85,7 @@ body {
 }
 
 .portfolio-title {
-  font-weight: bold;
+  color: var(--title-text-color);
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -98,12 +101,14 @@ body {
 }
 .map-link {
   color: var(--primary-white-color);
+  text-decoration: none;
   font-size: 14px;
   line-height: 1.71;
 }
 
 .secondary-contact-link {
   color: var(--footer-text-color);
+  text-decoration: none;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -134,7 +139,6 @@ body {
 
 .section-title {
   color: var(--title-text-color);
-  font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -144,7 +148,6 @@ body {
 
 .quality-title {
   color: var(--title-text-color);
-  font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
